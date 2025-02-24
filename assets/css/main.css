@@ -89,8 +89,8 @@ table, th, td {
 }
 
 code {
-  color: white;
-  background: black;
+  color: rgb(0, 0, 0);
+  background: rgb(241, 242, 234);
 }
 
 div.highlighter-rouge code {
@@ -113,6 +113,49 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+.highlight {
+  background-color: #204fae; /* or whichever color suits your style */
+  color: #b4b406;
+}
+
+.highlight table td {
+  padding: 0.5em;
+}
+
+.highlight .c {
+  color: #999999;
+  font-style: italic;
+}
+
+.highlight .cp {
+  color: #999999;
+}
+
+.highlight .c1 {
+  color: #999999;
+  font-style: italic;
+}
+
+.highlight .k {
+  color: #c678dd;
+}
+
+.highlight .o {
+  color: #56b6c2;
+}
+
+.highlight .n {
+  color: #e06c75;
+}
+
+.highlight .s {
+  color: #98c379;
+}
+
+.highlight .p {
+  color: #abb2bf;
 }
 
 /*# sourceMappingURL=main.css.map */
